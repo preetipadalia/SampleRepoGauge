@@ -1,0 +1,57 @@
+{
+  "DriverSettings": {
+    "browserstack.user": "",
+    "browserstack.key": "",
+    "mobile": [
+      {
+        "Name": "Iphone12",
+        "RemoteOptionsCapabilities": {
+          "osVersion": "14",
+          "networkLogs": "true",
+          "idleTimeout": "300",
+          "deviceName": "iPhone 12",
+          "appiumVersion": "2.0.1",
+          "geoLocation": "BR",
+          "timezone": "Campo_Grande",
+          "browserstack.appium_version": "2.0.1"
+        },
+        "Capabilities": {
+          "browserName": "safari"
+        }
+      },
+      {
+        "Name": "Iphone13Pro_Chrome",
+        "RemoteOptionsCapabilities": {
+          "osVersion": "15",
+          "networkLogs": "true",
+          "idleTimeout": "300",
+          "deviceName": "iPhone 13 Pro",
+          "appiumVersion": "2.0.1",
+          "geoLocation": "BR",
+          "timezone": "Campo_Grande",
+
+          "browserstack.appium_version": "2.0.1"
+        },
+        "Capabilities": {
+          "browserName": "chrome"
+        }
+      }
+    ],
+    "desktop": [
+      {
+        "Name": "WindowsChromeV103",
+        "RemoteOptionsCapabilities": {
+          "os": "Windows",
+          "osVersion": "11",
+          "seleniumVersion": "4.4.0",
+          "networkLogs": "true",
+          "idleTimeout": "90"
+        },
+        "Capabilities": {
+          "browserName": "chrome",
+          "browserVersion": "103.0"
+        }
+      }
+    ]
+  }
+}
